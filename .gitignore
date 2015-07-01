@@ -45,4 +45,6 @@ Temporary Items
 # ========================
 # Linux
 # ========================
-./KingsmenChess	# The executable
+
+# The executable
+KingsmenChess
