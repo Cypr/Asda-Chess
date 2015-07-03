@@ -429,7 +429,7 @@ int main(int argc, char* argv[])
 		//displayBoardSprites(boardSprites);
 		displayBoard(boardImage, boardSprites, tempSprites, board.board);
 
-		// Handle key presses
+		// Handle key presses and drag-drop events; If set to 0 drag drop will not function
 		char c = cvWaitKey(5);
 		if (c==27) // Hit escape to exit
 			break;
